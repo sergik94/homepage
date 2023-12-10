@@ -1,0 +1,57 @@
+.rightside {
+  padding: 60px 50px 50px;
+}
+
+.rightside__title {
+  color: #410407;
+}
+
+.rightside__subtitle {
+  margin-bottom: 83px;
+}
+
+.rightside__block-title {
+  margin-bottom: 22px;
+  color: #410407;
+}
+
+.rightside__block-text:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.rightside__block-subtitle {
+  margin-bottom: 16px;
+  margin-top: 22px;
+}
+
+.rightside__block {
+  margin-bottom: 50px;
+}
+
+.rightside__info-contant {
+  margin-bottom: 16px;
+}
+
+.rightside__info-contant-title {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 1024px) {
+  .rightside__subblocks {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 320px) {
+  .leftside {
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  .leftside__title,
+  .leftside__subtitle {
+    display: block;
+    text-align: center;
+  }
+}
