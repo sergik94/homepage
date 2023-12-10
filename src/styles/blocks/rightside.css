@@ -54,6 +54,19 @@
   top: 6px;
 }
 
+.rightside__info-link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.rightside__subblocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  margin-top: -22px;
+  margin-bottom: -16px;
+}
+
 @media (max-width: 1024px) {
   .rightside__subblocks {
     grid-template-columns: 1fr;
