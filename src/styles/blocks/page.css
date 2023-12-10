@@ -1,0 +1,22 @@
+.page {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+.page__main {
+  display: flex;
+}
+
+.page__leftside {
+  flex-shrink: 0.2;
+}
+
+@media (max-width: 320px) {
+  .page__main {
+    flex-direction: column;
+  }
+}
