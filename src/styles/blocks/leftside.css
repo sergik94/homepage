@@ -53,3 +53,111 @@
     text-align: center;
   }
 }
+
+.leftside__info-list {
+  margin-bottom: 50px;
+}
+
+.leftside__info-item {
+  margin-bottom: 16px;
+}
+
+.leftside__info-item--location {
+  display: flex;
+}
+
+.leftside__item-title {
+  margin-bottom: 4px;
+}
+
+.leftside__info-link {
+  color: inherit;
+}
+
+.leftside__info-link:hover {
+  color: orange;
+}
+
+.leftside__project-link {
+  display: flex;
+}
+
+.leftside__project-link::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  transform: translateY(6px);
+}
+
+.leftside__contact {
+  display: flex;
+  color: inherit;
+}
+
+.leftside__contact:hover {
+  color: orange;
+}
+
+.leftside__contact::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.leftside__contact--linkedin::before {
+  background: url("../../images/linkedin.svg") no-repeat center;
+}
+
+.leftside__contact--linkedin:hover::before {
+  background: url("../../images/linkedin-hover.svg") no-repeat center;
+}
+
+.leftside__contact--github::before {
+  background: url("../../images/github.svg") no-repeat center;
+}
+
+.leftside__contact--github:hover::before {
+  background: url("../../images/github-hover.svg") no-repeat center;
+}
+
+.leftside__contact--telegram::before {
+  background: url("../../images/telegram.svg") no-repeat center;
+}
+
+.leftside__contact--telegram:hover::before {
+  background: url("../../images/telegram-hover.svg") no-repeat center;
+}
+
+.leftside__contact--phone::before {
+  background: url("../../images/phone.svg") no-repeat center;
+}
+
+.leftside__contact--phone:hover::before {
+  background: url("../../images/phone-hover.svg") no-repeat center;
+}
+
+.leftside__contact--envelope::before {
+  background: url("../../images/envelope.svg") no-repeat center;
+}
+
+.leftside__contact--envelope:hover::before {
+  background: url("../../images/envelope-hover.svg") no-repeat center;
+}
+
+.leftside__contact--location {
+  margin-right: 3px;
+}
+
+.leftside__contact--location::before {
+  background: url("../../images/location.svg") no-repeat center;
+}
+
+.leftside__contact--location:hover::before {
+  background: url("../../images/location-hover.svg") no-repeat center;
+}
