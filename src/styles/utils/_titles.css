@@ -1,0 +1,27 @@
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 140%;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  text-transform: uppercase;
+  padding-bottom: 6px;
+  border-bottom: 1px solid;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+}
