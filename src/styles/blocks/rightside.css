@@ -37,6 +37,23 @@
   margin-bottom: 8px;
 }
 
+.rightside__info-item {
+  padding-left: 15px;
+  position: relative;
+}
+
+.rightside__info-item::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: #410407;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 6px;
+}
+
 @media (max-width: 1024px) {
   .rightside__subblocks {
     grid-template-columns: 1fr;
