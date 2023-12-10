@@ -1,0 +1,6 @@
+@import url("./utils/_reset.css");
+@import url("./utils/_titles.css");
+
+@import url("./blocks/page.css");
+@import url("./blocks/leftside.css");
+@import url("./blocks/rightside.css");
