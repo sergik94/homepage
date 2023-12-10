@@ -46,10 +46,6 @@ a:active {
   outline: none;
 }
 
-/* a:-webkit-any-link {
-  color: inherit;
-} */
-
 ul li {
   list-style-type: none;
 }

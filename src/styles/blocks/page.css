@@ -14,3 +14,9 @@
 .page__leftside {
   flex-shrink: 0.2;
 }
+
+@media (max-width: 320px) {
+  .page__main {
+    flex-direction: column;
+  }
+}
